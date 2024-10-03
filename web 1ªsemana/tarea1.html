@@ -4,11 +4,11 @@
         <title>Primera tarea Html</title>
         <header>
             <h1>PAGINA PRINCIPAL HTML</h1>
-            <img src="html _image.png" alt="imagen encabezado">
-            <nav>
+            <div  style="text-align: center;"><img src="html _image.png" alt="imagen encabezado"></div>
+            <div  style="text-align: center;"><nav>
                 <a href="tarea1 pagina 2.html">enlace pagina 2</a>
                 <a href=""></a>
-            </nav>
+            </nav></div>
 
         </header>
         <style>
@@ -34,39 +34,38 @@
 
 
 
-
         </style>
     </head>
-    <body>
+    <body style="background-color: aquamarine;">
         <article>
-            <ol>
+            <div  style="margin-left: 40%;"><ol>
             <li><a href="#A1">HTML</a></li>
             <li><a href="#A2">Origen del HTML</a></li>
             <li><a href="#A3">Aplicaciones Html</a></li>
             <li><a href="#A4">Comentarios</a></li>
-            </ol>
-            <h2 id="A1">HTML</h2>
+            </ol></div>
+            <div  style="text-align: center;"><h2 id="A1">HTML</h2>
             <h3>lenguaje de marcado de hipertexto</h3>
             <p>HTML, acrónimo en inglés de HyperText Markup Language («lenguaje de marcado de hipertexto»),<br>
              hace referencia al lenguaje de marcado utilizado en la creación de páginas web. Este estándar <br>
              que sirve de referencia del software que interactúa con la elaboración de páginas web en sus diferentes <br>
              versiones. Define una estructura básica y un código (denominado código HTML) para la presentación <br>
              de contenido de una página web, que incluye texto, imágenes, videos, juegos, entre otros elementos.</p>
-            <img src="logo html.png" alt="logo html">
-            <p id="A2">En 1989 existían dos técnicas para vincular documentos electrónicos: los hipervínculos o enlaces (hiperlinks o links) y, <br>
+            <img src="logo html.png" alt="logo html"></div>
+            <div style="text-align: center;"><p id="A2">En 1989 existían dos técnicas para vincular documentos electrónicos: los hipervínculos o enlaces (hiperlinks o links) y, <br>
              por otro lado, un poderoso lenguaje de etiquetas denominado SGML. En ese entonces, Tim Berners-Lee, quien trabajaba <br>
-             en el CERN informó a la prensa sobre su labor en un sistema que permitiría acceder a ficheros en línea, <br>
-             funcionando sobre redes de computadoras o máquinas electrónicas basadas en el protocolo TCP/IP. </p>
+             en el <a href="#B1"><b>CERN</b></a> informó a la prensa sobre su labor en un sistema que permitiría acceder a ficheros en línea, <br>
+             funcionando sobre redes de computadoras o máquinas electrónicas basadas en el protocolo TCP/IP. </p></div>
                 <section>
-                    <h2>CERN</h2>
+                    <h2 id="B1"><b>CERN</b></h2>
                     <p>La Organización Europea para la Investigación Nuclear (nombre oficial en español), <br>
                     ​comúnmente conocida por la sigla CERN (sigla provisional utilizada en 1952, <br>
                     que responde al nombre en francés Conseil Européen pour la Recherche Nucléaire, es decir, <br>
                     Consejo Europeo para la Investigación Nuclear),4​ es una organización de investigación europea <br>
                     que opera el laboratorio de Física más grande del mundo.</p>
-                    <img src="imagen cern.jpeg" alt="imagen CERN">
+                    <div  style="margin-left: 40%;"><img src="imagen cern.jpeg" alt="imagen CERN"></div>
                 </section>
-            <p id="A3">El lenguaje HTML puede ser creado y editado con cualquier editor de textos básico, como puede ser Gedit en GNU/Linux</p>
+            <div style="text-align:right;"><p id="A3">El lenguaje HTML puede ser creado y editado con cualquier editor de textos básico, como puede ser Gedit en GNU/Linux</p></div>
                 <aside>
                 <h2>Gedit</h2>  
                 <p>gEdit es un editor de textos compatible con UTF-8 para Solaris, GNU/Linux, macOS y Microsoft Windows.</p>
@@ -76,18 +75,20 @@
         <video src="https://www.youtube.com/watch?v=10GHKjgQIR0"></video>
         <audio src="¿Qué es HTML_ bien explicado.mp3"></audio>
         <form action="tarea 1 pagina thanks.html" method="get" id="A4">
-            <div style="border: 15px solid rgb(0, 0, 0);width: 300px;margin-left: 40%;padding: 10px;"><label for="name">Nombre:</label><br>
-            <input type="text" id="name" name="fname"><br>  
-            <label for="surname">Apellido:</label><br>
-            <input type="text" id="surname" name="lname"></div><br>
+                <div style="border: 15px solid rgb(59, 59, 59);width: 300px;margin-left: 40%;padding: 10px;"><label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="fname"><br>  
+                <label for="surname">Apellido:</label><br>
+                    <input type="text" id="surname" name="lname"></div><br>
             <h4>cual es tu puntuacion de mi pagina web</h4>
-            <input type="radio" id="A" name="puntuacion" value="A">
-            <label for="A">A</label><br>
-            <input type="radio" id="B" name="puntuacion" value="B">
-            <label for="B">B</label><br>
-            <input type="radio" id="F" name="puntuacion" value="F">
-            <label for="F">F</label>
-            <br><br>
+                <input type="radio" id="A" name="puntuacion" value="A">
+                    <label for="A">A</label><br>
+                <input type="radio" id="B" name="puntuacion" value="B">
+                    <label for="B">B</label><br>
+                <input type="radio" id="F" name="puntuacion" value="F">
+                    <label for="F">F</label><br>
+                <div style="margin-left: 40%;"><label for="comentario">Algun comentario:</label><br>
+                    <input type="text" id="comentario" name="fcomentario">
+                <br><br>
             <input type="submit" value="Submit">
         </form>
     </body>
