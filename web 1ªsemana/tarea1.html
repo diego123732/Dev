@@ -2,12 +2,23 @@
 <html>
     <head><!--cabeza de codigo-->
         <title>Primera tarea Html</title><!--titulo de la pagina web-->
+
+        <meta name="description" content="pagina web informativa sobre html"><!--contenido:paagina web informativa sobre html-->
+        <meta name="keywords" content="HTML"><!--codigo hecho en html-->
+        <meta name="author" content="Diego Rojo"><!--autor de la pagina web Diego Rojo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--espacio que ocupa la pagina web de la pantalla-->
+
         <header>
+
             <h1 style="text-align: center;">PAGINA PRINCIPAL HTML</h1><!--texto del inicio de la pagina web-->
+
             <div  style="text-align: center;"><img src="html _image.png" alt="imagen encabezado"></div><!--primera imagen centrada-->
+
             <div  style="text-align: center;"><nav><!--navegador que lleva a la segunda pagina de la pagina web-->
+
                 <a href="tarea1 pagina 2.html">enlace pagina 2</a>
                 <a href=""></a>
+
             </nav></div>
 
         </header>
@@ -15,22 +26,28 @@
           aside {
             text-align:right;
           }
+          
           video{
             margin-left: 41%;
           }
+
           audio{
             margin-left: 41%;
           }
+
           form{
             text-align: center;
           }
+
           article{
             margin-left: 20px;
           }
+
           section {
             margin-left: 20px;
 
           }
+
            th, td {
             width:200px;
             height:70px;
@@ -40,76 +57,113 @@
             border-color: #ff0000;
           }
 
-
-
-
-
         </style>
+
     </head>
+
     <body style="background-color: aquamarine;"><!--cuerpo del codigo, fondo de color azul marino-->
+
         <article><!--articulo, informacion principal-->
+
             <div  style="margin-left: 40%;"><ol><!--indice-->
+
             <li><a href="#A1">HTML</a></li>
             <li><a href="#A2">Origen del HTML</a></li>
             <li><a href="#A3">Aplicaciones Html</a></li>
             <li><a href="#A4">Comentarios</a></li>
+
             </ol></div>
-            <div  style="text-align: center;"><h2 id="A1"><a href="https://es.wikipedia.org/wiki/HTML">HTML</a></h2>
+
+            <div  style="text-align: center;"><h2 id="A1"><a href="https://es.wikipedia.org/wiki/HTML">HTML</a></h2><!--titulo html-->
+
             <h3>lenguaje de marcado de hipertexto</h3>
+
             <p>HTML, acrónimo en inglés de HyperText Markup Language («lenguaje de marcado de hipertexto»),<br>
              hace referencia al lenguaje de marcado utilizado en la creación de páginas web. Este estándar <br>
              que sirve de referencia del software que interactúa con la elaboración de páginas web en sus diferentes <br>
              versiones. Define una estructura básica y un código (denominado código HTML) para la presentación <br>
              de contenido de una página web, que incluye texto, imágenes, videos, juegos, entre otros elementos.</p>
+
             <img src="logo html.png" alt="logo html"></div>
+
             <table style="margin: 0 auto;"><!--tabla de informacion sobre html-->
+
                 <tr>
+
                   <th>Empresas que utilizan HTML</th>
                   <th>Pais</th>
                   <th>Ingresos</th>
+
                 </tr>
+
                 <tr>
+
                   <td>eSales Technologies</td>
                   <td>Estados Unidos</td>
                   <td>$551K</td>
+
                 </tr>
+
                 <tr>
+                  
                     <td >Prodigy Education</td>
                     <td>Canadá</td>
                     <td>$30M</td>
+
                 </tr>
+
                 <tr>
+
                     <td>Grantek Systems Integration</td>
                     <td>Estados Unidos</td>
                     <td>$12M</td>
+                    
                 </tr>
+
               </table>
+
             <div style="text-align: center;"><p id="A2">En 1989 existían dos técnicas para vincular documentos electrónicos: los hipervínculos o enlaces (hiperlinks o links) y, <br>
              por otro lado, un poderoso lenguaje de etiquetas denominado SGML. En ese entonces, Tim Berners-Lee, quien trabajaba <br>
              en el <a href="#B1"><b>CERN</b></a> informó a la prensa sobre su labor en un sistema que permitiría acceder a ficheros en línea, <br>
              funcionando sobre redes de computadoras o máquinas electrónicas basadas en el protocolo TCP/IP. </p></div>
+
                 <section><!--seccion, informacion adicional importante-->
                     <h2 id="B1"><b><a href="https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Europea_para_la_Investigaci%C3%B3n_Nuclear">CERN</a></b></h2>
+
                     <p>La Organización Europea para la Investigación Nuclear (nombre oficial en español), <br>
                     ​comúnmente conocida por la sigla CERN (sigla provisional utilizada en 1952, <br>
                     que responde al nombre en francés Conseil Européen pour la Recherche Nucléaire, es decir, <br>
                     Consejo Europeo para la Investigación Nuclear),4​ es una organización de investigación europea <br>
                     que opera el laboratorio de Física más grande del mundo.</p>
-                    <img src="imagen cern.jpeg" alt="imagen CERN">
+
+                    <img src="imagen cern.jpeg" alt="imagen CERN"><!--imagen logo cern-->
+
                 </section>
+
                 <aside><!--aside, informacion adicional-->
+
                     <div style="text-align:right;margin-right: 2.5%;"><p id="A3">El lenguaje HTML puede ser creado y editado con cualquier editor de textos básico, como puede ser Gedit en GNU/Linux</p>
                     <h2><a href="https://es.wikipedia.org/wiki/Gedit#:~:text=gEdit%20es%20un%20editor%20de,estructurados%2C%20como%20lenguajes%20de%20marcado.">Gedit</a></h2> 
                     <p>gEdit es un editor de textos compatible con UTF-8 para Solaris, GNU/Linux, macOS y Microsoft Windows.</p>
+
                     <img src="imagen gedit aside.jpeg" alt="imagen logo gedit"></div>
+
                 </aside>
+
         </article>
-        <video width="300" height="240" controls>
-            <source src="¿Qué es HTML_ bien explicado - Bitech Studio (720p, h264, youtube) (1).mp4" type="video/mp4">
-        </video><br><br><!--video didactico sobre html, y cortito-->
-        <audio width="300" height="240" controls>
-            <source src="¿Qué es HTML_ bien explicado.mp3" type="audio/mpeg">
-        </audio><!--audio del video superior, para mejor funcionalidad y accesibilidad de la pagina web-->
+
+        <video width="300" height="240" controls><!--video didactico sobre html, y cortito-->
+
+          <source src="¿Qué es HTML_ bien explicado - Bitech Studio (720p, h264, youtube) (1).mp4" type="video/mp4">
+
+        </video><br><br>
+
+        <audio width="300" height="240" controls><!--audio del video superior, para mejor funcionalidad y accesibilidad de la pagina web-->
+
+          <source src="¿Qué es HTML_ bien explicado.mp3" type="audio/mpeg">
+
+        </audio>
+
         <form action="tarea 1 pagina thanks.html" method="get" id="A4"><!--tabla de nombre, puntuacion y comentarios-->
                 <div style="border: 15px solid rgb(59, 59, 59);width: 300px;margin-left: 40%;padding: 10px;"><label for="name">Nombre:</label><br><!--pide nombre-->
                     <input type="text" id="name" name="fname"><br><!--escribe nombre-->
@@ -127,9 +181,12 @@
                 <br><br>
             <input type="submit" value="Submit"><!--boton de enviar la respuesta, que lleva a la pagina de agradecimiento-->
         </form>
+
         <footer><!--informacion del creador-->
             <p>Autor: Diego Rojo</p>
             <p><a href="mailto:diegocrack345678@gmail.com">diegocrack345678@gmail.com</a></p>
         </footer>
+
     </body>
+
 </html>
